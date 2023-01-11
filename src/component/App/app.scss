@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$bg-color:#F3F7FA; 
+
+.body {
+   max-width: 960px;
+   caret-color: transparent;
+   margin: auto;
+   background-color: $bg-color;
+   & .main {
+      display: flex;
+      justify-content: center;
+   }
+}

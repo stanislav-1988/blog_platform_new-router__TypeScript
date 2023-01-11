@@ -1,0 +1,15 @@
+#no-flights {
+   display: flex;
+   justify-content: center;
+   width: 502px;
+   height: 40px;
+   margin-top: 20px;
+   border-radius: 5px;
+   border:  2px solid rgb(255, 251, 0);
+   background-color: rgba(248, 248, 4, 0.644);
+   & span {
+      height: 20px;
+      margin-top: 10px;
+      margin-left: 20px;
+   }
+}
