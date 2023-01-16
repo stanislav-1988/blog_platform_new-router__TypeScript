@@ -37,7 +37,6 @@ const Article: React.FC = () => {
     } catch (e) {
       navigate("/error");
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!detailsSelectedArticle.author.username) {
@@ -120,7 +119,6 @@ const Article: React.FC = () => {
   const { favoritesCount } = detailsSelectedArticle;
 
   const defaultAvatar: React.ReactEventHandler<HTMLImageElement>  = (e) => {
-    console.log(e)
     e.currentTarget.src =
       "https://static.productionready.io/images/smiley-cyrus.jpg";
   }
