@@ -12,8 +12,7 @@ import OfError from "../Error/Error";
 
 import "./app.scss";
 
-const App: React.FC = () => {
-  return (
+const App: React.FC = () => (
     <div className={"body"}>
       <Routes>
         <Route path="/" element={<Header />}>
