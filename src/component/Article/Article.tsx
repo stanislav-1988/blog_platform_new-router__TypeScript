@@ -1,14 +1,16 @@
-import "./article.scss";
-import ServesServer from "../../serves_server";
-import Loader from "../Loader/Loader";
-import ReactMarkdown from "react-markdown";
-import { userActionType, UserSessionStorageType, TagsInput } from "../../type/type";
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { format } from "date-fns";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { message, Popconfirm } from "antd";
+import ReactMarkdown from "react-markdown";
+
+import ServesServer from "../../serves_server";
+import Loader from "../Loader/Loader";
+import { userActionType, UserSessionStorageType, TagsInput } from "../../type/type";
 import { useAppSelector } from "../../hook/hook";
+
+import "./article.scss";
 
 const serves = new ServesServer();
 
