@@ -1,4 +1,5 @@
-import "./app.scss";
+import { Routes, Route } from "react-router-dom";
+
 import Header from "../Header";
 import Authorization from "../Authorization";
 import CreateNewArticle from "../CreateNewArticle";
@@ -7,7 +8,9 @@ import EditProfile from "../EitProfile";
 import ArticleList from "../ArticleList";
 import Article from "../Article";
 import OfError from "../Error/Error";
-import { Routes, Route } from "react-router-dom";
+
+
+import "./app.scss";
 
 const App: React.FC = () => {
   return (
